@@ -1,0 +1,10 @@
+note over browser:
+prevent default handling of form submit
+browser fetches form element from page
+add new note to list
+rerender note list on page
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note right of server: Add new note to array
+server->browser: Status code 201
